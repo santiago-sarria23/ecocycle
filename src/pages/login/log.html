@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/login.css">
+    <link href="../../modules/node_modules/@flaticon/flaticon-uicons/css/all/all.css" rel="stylesheet">
+    <title>EcoCycle</title>
+</head>
+<body>
+    <div class="top_bar">
+        <nav>
+            <a href="../../index.html">
+                <span><i class="fi fi-rr-arrow-small-left"></i></span>
+                <span>Back</span>
+            </a>
+        </nav>
+    </div>
+    <div class="form_container">
+        <form action="../../mysqldb/vali.php" method="POST">
+            <div class="logo_container">
+                <img src="../../assets/logos/ecocycle_logo.png" alt="EcoCycle Logo" class="logo_img">
+            </div>
+            <div class="login_container">
+                <h1>Login</h1>
+                <div class="input_group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input_group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div><br>
+                <button type="submit">Login</button><br>
+                <p>Don't have an account? <a href="../register/register.html">Sign Up</a></p>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2025 EcoCycle. All rights reserved.</p>
+        <p><a href="../privacy/privacy.html">Privacy Policy</a></p>
+        <p><a href="../terms/terms.html">Terms of Service</a></p>
+        <p><a href="../contact/contact.html">Contact Us</a></p>
+        <p><a href="../about/about.html">About Us</a></p>
+    </footer>
+</body>
+</html>
